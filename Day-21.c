@@ -25,9 +25,30 @@
     printf("Min is %d\n", min);
 
 
+//     //linear search in array 
+
+int numbers[]= {13,34,23,45,67,54,};
+int searchNumber = 21;
+int found = -1;
+
+for(int i=0;i<6;i++){
+if(numbers[i]==searchNumber){
+    found = i;
+    break;
+}
+}
+if(found==-1){
+    printf("%d is not found ", searchNumber);
+}
+else{
+    printf("%d is found", searchNumber);
+}
+  
+
 
     return 0;
 
  }
+
 
 
