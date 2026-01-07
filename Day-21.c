@@ -21,11 +21,10 @@
         }
     }
 
-    printf("Max is %d\n", max);
-    printf("Min is %d\n", min);
-
+ 
 
 
     return 0;
 
  }
+
