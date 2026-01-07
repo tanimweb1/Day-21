@@ -38,11 +38,18 @@ if(numbers[i]==searchNumber){
 }
 }
 
-
+if(found==-1){
+    printf("%d is not found ", searchNumber);
+}
+else{
+    printf("%d is found", searchNumber);
+}
+  
 
     return 0;
 
  }
+
 
 
 
