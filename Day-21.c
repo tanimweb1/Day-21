@@ -37,18 +37,13 @@ if(numbers[i]==searchNumber){
     break;
 }
 }
-if(found==-1){
-    printf("%d is not found ", searchNumber);
-}
-else{
-    printf("%d is found", searchNumber);
-}
-  
+
 
 
     return 0;
 
  }
+
 
 
 
